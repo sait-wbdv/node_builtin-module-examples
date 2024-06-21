@@ -1,0 +1,17 @@
+{
+  "string_value": "This is a sample string",
+  "number_value": 42,
+  "object_value": {
+    "key1": "value1",
+    "key2": 2
+  },
+  "array_of_strings": ["apple", "banana", "cherry"],
+  "array_of_numbers": [1, 2, 3, 4, 5],
+  "array_of_objects": [
+    {
+      "name": "Alice",
+      "age": 30,
+      "city": "New York"
+    }
+  ]
+}
