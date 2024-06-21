@@ -1,0 +1,14 @@
+"use strict";
+const fs = require("node:fs");
+
+const fileName = "text.txt";
+
+console.time("Callback Read File");
+fs.readFile(fileName, (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(data.toString("utf-8"));
+});
+console.timeEnd("Callback Read File");
